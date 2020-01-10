@@ -1,0 +1,26 @@
+.highcharts-container {
+  
+  & svg > rect:first-of-type {
+    fill: $night;
+  }
+
+  & .highcharts-title {
+    color: $light !important;
+    fill: $light !important;
+  }
+
+  & .highcharts-axis text {
+    color: $light !important;
+    fill: $light !important;
+  }
+
+  & .highcharts-data-labels text {
+    color: $light !important;
+    fill: $light !important;
+  }
+
+  & .highcharts-legend-item text {
+    color: $accent !important;
+    fill: $accent !important;
+  }
+}

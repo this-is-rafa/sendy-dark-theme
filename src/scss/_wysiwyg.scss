@@ -1,0 +1,103 @@
+/* Wysiwyg Editor */
+
+.cke_wysiwyg_frame, 
+.cke_wysiwyg_div {
+  background-color: transparent;
+}
+
+.cke_toolgroup {
+  box-shadow: none;
+}
+
+.cke_1 {
+  & .cke_bottom {
+    background-color: $darker;
+    background-image: none !important;
+  }
+
+  &.cke_chrome {
+    border-color: $darker !important;
+  }
+
+  & .cke_toolgroup {
+    background-color: $darker;
+    background-image: none !important;
+    border-color: $darkest !important;
+    box-shadow: none;
+  }
+
+  & .cke_top {
+    background-color: $darker;
+    background-image: none !important;
+    border-color: $darker !important;
+    box-shadow: none !important;
+  }
+
+  & .cke_button_off {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $accent;
+    }
+  }
+
+  & .cke_combo_button {
+    border-color: $darkest !important;
+    background-color: $darker !important;
+    background-image: none !important;
+  }
+
+  & .cke_button_label {
+    color: $light;
+    text-shadow: none;
+  }
+
+  & .cke_button_on {
+    background-color: $accent;
+    box-shadow: none;
+  }
+
+  & .cke_toolbar_separator {
+    background-color: $darkest;
+    box-shadow: none;
+  }
+
+  & a.cke_combo_button {
+    box-shadow: none !important;
+
+    &:hover,
+    &:focus {
+      background-color: $accent !important;
+      background-image: none !important;
+    }
+  }
+
+  & .cke_path_item {
+    color: $light !important;
+    text-shadow: none !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $dark;
+      color: $light;
+      box-shadow: none;
+      text-shadow: none;
+    }
+  }
+}
+
+.cke_combo_text {
+  color: $light !important;
+  text-shadow: none !important;
+}
+
+.cke_button_icon {
+  filter: invert(1);
+  opacity: .6;
+}
+
+.cke_button_label {
+  color: $light;
+  text-shadow: none;
+}

@@ -1,0 +1,250 @@
+::selection {
+  background-color: $accent;
+  color: $light;
+}
+
+body {
+  background-color: $night;
+  color: $light;
+}
+
+a {
+  color: $lighter;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+hr {
+  border-top: 1px solid $dark;
+  border-bottom: 1px solid $accent;
+}
+
+blockquote {
+  background-color: $darker;
+  border-color: $darkest;
+
+  & p {
+    color: $light;
+  }
+}
+
+code {
+	color: $accent;
+	background-color: $dark;
+	border: 1px solid $night;
+}
+
+select {
+  background-color: $dark;
+  border-color: $darker;
+  color: $lighter;
+
+  &:focus {
+    border-color: $night;
+    box-shadow: 0 0 0 3px $darker;
+  }
+}
+
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input {
+  background-color: $dark;
+  border-color: $darker;
+  color: $light;
+
+  &:focus {
+    border-color: $darker;
+    box-shadow: 0 0 0 1px $darker;
+  } 
+}
+
+.input-prepend,
+.input-append {
+  & .add-on {
+    background-color: $darkest;
+    border-color: $darker;
+    text-shadow: none;
+  }
+}
+
+.separator { 
+  filter: hue-rotate(180deg) invert(1);
+}
+
+.alert-danger,
+.alert-error {
+  background-color: $danger;
+  color: $lighter;
+}
+
+.alert,
+.alert-info {
+  background-color: $info;
+  color: $lighter;
+}
+
+.label,
+.badge {
+  background-color: $dark;
+  border: 1px solid $night;
+  color: $light;
+}
+
+.label-success,
+.badge-success {
+  border-color: $success;
+}
+
+.label-warning,
+.badge-warning {
+  border-color: $warning;
+}
+
+.label-info,
+.badge-info {
+  border-color: $info;
+}
+
+.label-danger,
+.badge-danger {
+  border-color: $danger;
+}
+
+.btn {
+  background-color: $dark;
+  border-color: $night;
+  box-shadow: none;
+  color: $light;
+
+  &:hover {
+    box-shadow: none;
+    background-color: $darkest;
+    color: $light;
+  }
+
+  &.active {
+    background-color: $accent;
+    color: $lighter;
+  }
+}
+
+.btn-inverse {
+  &:hover,
+  &:active,
+  &.active,
+  &.disabled,
+  &[disabled] {
+    border-color: $night;
+  }
+}
+
+.btn-group.open .btn.dropdown-toggle {
+  background-color: $darker;
+}
+
+.nav > li > a:hover {
+  background-color: $dark;
+}
+
+.nav-list > li > a, 
+.nav-list .nav-header,
+.nav .nav-header {
+  text-shadow: none;
+}
+
+.navbar {
+  & .brand {
+    color: $lighter;
+  }
+
+  & .dropdown-menu {
+    background-color: $darker;
+    border-color: $night;
+
+    &::after {
+      border-bottom: 6px solid $darker;
+    }
+
+    & .divider {
+      background-color: $darker;
+      border-color: $night;
+    }
+  }
+
+  & a {
+    color: $light;
+  }
+
+  & li > a:hover,
+  & .active > a,
+  & .active > a:hover {
+    background-color: $dark;
+    color: $light;
+  }
+}
+
+.navbar-inner {
+  background-color: $darker;
+}
+
+.sidebar-box {
+  background-color: $darker;
+  box-shadow: none;
+
+  & ul li.active a {
+    background-color: $dark;
+  }
+}
+
+.well {
+  background-color: $darker;
+  box-shadow: none;
+
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.table {
+  background-color: $darker;
+
+  & tbody tr:hover td,
+  & tbody tr:hover th {
+    background-color: $darkest !important;
+    color: $light !important;
+  }
+}
+
+.table-striped {
+  & tbody tr:nth-child(2n+1) td, 
+  & tbody tr:nth-child(2n+1) th {
+    background-color: $darker;
+  }
+}
+
+.tablesorter-default {
+  background-color: $darker !important;
+
+  & td {
+    background-color: $darker !important;
+  }
+}
+
+#recipients {
+  color: $accent !important;
+}
