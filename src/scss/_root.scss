@@ -248,3 +248,32 @@ input[type="color"],
 #recipients {
   color: $accent !important;
 }
+
+.modal {
+  background-color: $darker;
+
+  &-footer {
+    background-color: $dark;
+    border-color: $accent;
+    box-shadow: none;
+  }
+
+  &-header {
+    border-color: $accent;
+  }
+}
+
+.close {
+  color: $lighter;
+  text-shadow: none;
+
+  &:hover {
+    color: $lighter;
+  }
+} 
+
+pre {
+  background-color: $dark;
+  border-color: $darkest;
+  color: $accent;
+}
