@@ -125,6 +125,10 @@ input[type="color"],
   border-color: $danger;
 }
 
+.error {
+  color: $danger;
+}
+
 .btn {
   background-color: $dark;
   border-color: $night;
@@ -301,3 +305,4 @@ pre {
 .rounded-dashed-box {
   border-color: $accent;
 }
+

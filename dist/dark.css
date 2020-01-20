@@ -120,6 +120,9 @@ input[type="color"],
 .badge-danger {
   border-color: #A3525B; }
 
+.error {
+  color: #A3525B; }
+
 .btn {
   background-color: #272c35;
   border-color: #171a1f;
