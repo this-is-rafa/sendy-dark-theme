@@ -243,6 +243,9 @@ pre {
 .dropdown-header {
   color: #e9e9e9; }
 
+.rounded-dashed-box {
+  border-color: #7289da; }
+
 .highcharts-container svg > rect:first-of-type {
   fill: #171a1f; }
 
