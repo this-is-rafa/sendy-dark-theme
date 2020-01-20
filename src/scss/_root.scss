@@ -277,3 +277,23 @@ pre {
   border-color: $darkest;
   color: $accent;
 }
+
+.dropdown-menu {
+  background-color: $darkest;
+  border-color: $darker;
+  box-shadow: none;
+
+  & a,
+  & a:hover {
+    color: $light;
+  }
+
+  & .divider {
+    background-color: $night;
+    border-color: $accent;
+  }
+}
+
+.dropdown-header {
+  color: $lighter;
+}

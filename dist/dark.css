@@ -228,6 +228,21 @@ pre {
   border-color: #1b1e24;
   color: #7289da; }
 
+.dropdown-menu {
+  background-color: #1b1e24;
+  border-color: #1f232a;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .dropdown-menu a,
+  .dropdown-menu a:hover {
+    color: #d1d1d1; }
+  .dropdown-menu .divider {
+    background-color: #171a1f;
+    border-color: #7289da; }
+
+.dropdown-header {
+  color: #e9e9e9; }
+
 .highcharts-container svg > rect:first-of-type {
   fill: #171a1f; }
 
