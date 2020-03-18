@@ -4,6 +4,8 @@ A dark theme for [Sendy](https://sendy.co).
 
 Tested up to version 4.0.5.
 
+![Dark Sendy screenshot](docs/screenshots/01.png)
+
 **Installation**
 
 Download `dark.css` from /dist, and put it in sendy/css/. After that, open header.php from /includes, and add the following line just before the `<title>` tag:
