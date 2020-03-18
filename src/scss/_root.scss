@@ -145,6 +145,16 @@ input[type="color"],
     background-color: $accent;
     color: $lighter;
   }
+
+  &.disabled,
+  &[disabled] {
+    background-color: $accent;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: $accent;
+    }
+  }
 }
 
 .btn-inverse {

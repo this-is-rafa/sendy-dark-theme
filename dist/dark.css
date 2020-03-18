@@ -137,6 +137,11 @@ input[type="color"],
   .btn.active {
     background-color: #7289da;
     color: #e9e9e9; }
+  .btn.disabled, .btn[disabled] {
+    background-color: #7289da;
+    cursor: not-allowed; }
+    .btn.disabled:hover, .btn[disabled]:hover {
+      background-color: #7289da; }
 
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
   border-color: #171a1f; }
