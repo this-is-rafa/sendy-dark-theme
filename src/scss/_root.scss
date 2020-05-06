@@ -31,15 +31,15 @@ blockquote {
 }
 
 code {
-	color: $accent;
-	background-color: $dark;
-	border: 1px solid $night;
+  color: $accent;
+  background-color: $dark;
+  border: 1px solid $night;
 }
 
 select {
-  background-color: $dark;
-  border-color: $darker;
-  color: $lighter;
+  background-color: $dark !important;
+  border-color: $darker !important;
+  color: $lighter !important;
 
   &:focus {
     border-color: $night;
@@ -47,21 +47,21 @@ select {
   }
 }
 
-textarea, 
-input[type="text"], 
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 .uneditable-input {
   background-color: $dark;
   border-color: $darker;
@@ -70,7 +70,7 @@ input[type="color"],
   &:focus {
     border-color: $darker;
     box-shadow: 0 0 0 1px $darker;
-  } 
+  }
 }
 
 .input-prepend,
@@ -82,7 +82,7 @@ input[type="color"],
   }
 }
 
-.separator { 
+.separator {
   filter: hue-rotate(180deg) invert(1);
 }
 
@@ -175,7 +175,7 @@ input[type="color"],
   background-color: $dark;
 }
 
-.nav-list > li > a, 
+.nav-list > li > a,
 .nav-list .nav-header,
 .nav .nav-header {
   text-shadow: none;
@@ -245,8 +245,8 @@ input[type="color"],
 }
 
 .table-striped {
-  & tbody tr:nth-child(2n+1) td, 
-  & tbody tr:nth-child(2n+1) th {
+  & tbody tr:nth-child(2n + 1) td,
+  & tbody tr:nth-child(2n + 1) th {
     background-color: $darker;
   }
 }
@@ -284,7 +284,7 @@ input[type="color"],
   &:hover {
     color: $lighter;
   }
-} 
+}
 
 pre {
   background-color: $dark;
@@ -315,4 +315,3 @@ pre {
 .rounded-dashed-box {
   border-color: $accent;
 }
-
