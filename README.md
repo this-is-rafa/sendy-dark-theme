@@ -2,7 +2,7 @@
 
 A dark theme for [Sendy](https://sendy.co).
 
-Tested up to version 4.0.5.
+Tested up to version 4.0.8.
 
 ![Dark Sendy screenshot](docs/screenshots/01.png)
 
