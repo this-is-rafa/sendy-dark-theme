@@ -1,8 +1,10 @@
 ## Dark theme for Sendy
 
+**This project is no longer maintained as Sendy has added its own dark theme in version 5.**
+
 A dark theme for [Sendy](https://sendy.co).
 
-Tested up to version 4.0.8.
+Tested up to final version without dark theme: 4.1.0.1
 
 ![Dark Sendy screenshot](docs/screenshots/01.png)
 
@@ -13,7 +15,3 @@ Download `dark.css` from /dist, and put it in sendy/css/. After that, open heade
 `<link rel="stylesheet" type="text/css" href="<?php echo get_app_info('path');?>/css/dark.css" />`
 
 Alternatively, you could use a browser extension such as [Stylus](https://github.com/openstyles/stylus) to inject the CSS.
-
-**Contributions**
-
-While most of the dashboard is styled, there's probably some things I've missed. If you see you anything please open an issue or pull request.
